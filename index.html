@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Aaryan's portfolio in software development, artificial intelligence and engineering.">
+<title>Aaryan | Software & AI Developer</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#080d18;color:#edf3ff;font-family:system-ui,sans-serif;line-height:1.7}
+a{color:#79adff;text-decoration:none}
+.wrap{width:min(900px,90%);margin:auto}
+nav{padding:18px 0;border-bottom:1px solid #263754;background:#080d18;position:sticky;top:0}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+nav strong{font-size:20px}
+nav strong span,h1 span{color:#79adff}
+nav a{margin-left:12px;font-size:14px}
+.hero{min-height:75vh;display:flex;flex-direction:column;justify-content:center;padding:60px 0}
+.tag{color:#79adff;letter-spacing:3px;font-size:12px}
+h1{font-size:clamp(50px,10vw,88px);line-height:1.1;margin:15px 0}
+h2{font-size:30px;margin-bottom:12px}
+p{color:#a9b8d0}
+.btn{display:inline-block;padding:10px 17px;border:1px solid #355078;border-radius:9px;margin:8px 8px 0 0}
+.primary{background:#79adff;color:#080d18;border-color:#79adff}
+section{padding:38px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{padding:22px;background:#101a2b;border:1px solid #263754;border-radius:14px}
+.card h3{margin-top:6px}
+.small{color:#79adff;font-size:12px;letter-spacing:2px}
+footer{margin-top:40px;padding:25px 0;border-top:1px solid #263754}
+@media(max-width:480px){nav .wrap{align-items:flex-start;flex-direction:column}nav a{margin:0 12px 0 0}}
+</style>
+</head>
+<body>
+<nav>
+<div class="wrap">
+<strong>iamaarynx<span>.</span></strong>
+<div>
+<a href="#about">About</a>
+<a href="#interests">Interests</a>
+<a href="#projects">Projects</a>
+</div>
+</div>
+</nav>
+
+<header class="wrap hero">
+<div class="tag">STUDENT DEVELOPER · INDIA</div>
+<h1>Aaryan<span>.</span></h1>
+<h2>Software. AI. Engineering.</h2>
+<p>Exploring technology, writing code, and turning ideas into practical projects. This is my journey into software development and artificial intelligence.</p>
+<div>
+<a class="btn primary" href="#projects">Explore my work ↓</a>
+<a class="btn" href="https://github.com/iamaarynx" target="_blank" rel="noopener">GitHub ↗</a>
+</div>
+</header>
+
+<main class="wrap">
+<section id="about">
+<div class="small">01 / ABOUT</div>
+<h2>Curiosity into code.</h2>
+<p>I'm a student from India interested in software engineering, artificial intelligence, robotics, and problem-solving. I'm building my skills through practice, experimentation, and continuous learning.</p>
+<p>My approach: learn the fundamentals, build real things, understand mistakes, and improve.</p>
+</section>
+
+<section id="interests">
+<div class="small">02 / INTERESTS</div>
+<h2>What I'm exploring</h2>
+<div class="grid">
+<div class="card">
+<div class="small">01</div>
+<h3>Software Development</h3>
+<p>Programming, web development, algorithms, and applications.</p>
+</div>
+<div class="card">
+<div class="small">02</div>
+<h3>Artificial Intelligence</h3>
+<p>Machine learning fundamentals, intelligent systems, and automation.</p>
+</div>
+<div class="card">
+<div class="small">03</div>
+<h3>Robotics & Electronics</h3>
+<p>Hardware, sensors, microcontrollers, and engineering projects.</p>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="small">03 / PROJECTS</div>
+<h2>Selected work</h2>
+<div class="grid">
+<div class="card">
+<div class="small">PROJECT 01</div>
+<h3>Personal Portfolio</h3>
+<p>This website, built using HTML and CSS and published with GitHub Pages.</p>
+<a href="https://github.com/iamaarynx/iamaarynx.github.io">View source ↗</a>
+</div>
+<div class="card">
+<div class="small">PROJECT 02</div>
+<h3>Next experiment</h3>
+<p>Room for my next programming, AI, or engineering project.</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="small">04 / ONLINE</div>
+<h2>Follow my journey.</h2>
+<p>Explore my repositories and future projects on GitHub.</p>
+<a class="btn primary" href="https://github.com/iamaarynx" target="_blank" rel="noopener">github.com/iamaarynx ↗</a>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<p>© <span id="year"></span> Aaryan · Built with HTML & CSS.</p>
+<p>Learn. Build. Experiment. Improve.</p>
+</div>
+</footer>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
